@@ -1,0 +1,14 @@
+<div class="flex justify-center">
+  <div class="flex flex-col gap-2">
+    <iframe
+      class="shadow-2xl drop-shadow-lg rounded-lg"
+      width="550"
+      height="300"
+      [src]="'https://www.youtube.com/embed/' +( url$ | async) | safe"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
