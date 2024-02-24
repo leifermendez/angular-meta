@@ -11,6 +11,9 @@
 npm-debug.log
 yarn-error.log
 
+.env
+*.mp4
+
 # IDEs and editors
 .idea/
 .project
